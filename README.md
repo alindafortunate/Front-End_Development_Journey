@@ -1,0 +1,1 @@
+This is my professional journey of Front-End Software development with freeCodeCamp.
