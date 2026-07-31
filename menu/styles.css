@@ -59,3 +59,27 @@ h1, h2 {
   text-align: right;
   width: 25%
 }
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
+
