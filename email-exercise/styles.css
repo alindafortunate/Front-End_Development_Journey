@@ -3,14 +3,21 @@
   margin-top:50px;
   width:500px;
   border:2px solid black;
-  overflow:hidden;
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+#confidential{
+  transform:rotate(-17deg);
+}
+#top-secret{
+  transform:rotate(20deg);
 }
 #confidential,#top-secret{
   display:inline-block;
   padding:20px;
-  margin-left:10px;
-  border:2px solid black;
-  transform:rotate(0.4deg);
+  margin-left:20px;
+  border:2px solid red;
+  
 }
 .blurred{
   filter:blur(3px);
