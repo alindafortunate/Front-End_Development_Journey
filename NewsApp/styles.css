@@ -3,7 +3,10 @@ html{
 }
 .newspaper{
   font-size:16px;
-  font-family:'Open Sans', sans-serif; 
+  font-family:'Open Sans', sans-serif;
+  margin:20px;
+  padding:20px;
+  box-sizing:border-box; 
 }
 .name{
   font-size:2rem;
@@ -35,4 +38,12 @@ html{
 }
 .text{
   text-indent:20px;
+  line-height:2em;
+}
+.text::first-letter{
+  font-weight:bold;
+  font-size:2em;
+}
+.headline, .sub-headline, h1{
+    text-align: center;
 }
