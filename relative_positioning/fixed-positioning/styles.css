@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+p {
+  max-width: 600px;
+  margin: 20px auto;
+}
