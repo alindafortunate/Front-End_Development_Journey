@@ -28,4 +28,9 @@
         "small-article1 small-article2 small-article3";
     grid-template-columns: repeat(3, 1fr);   
     grid-template-rows: auto repeat(3, 1fr); 
+    gap: 10px;
+    text-align: justify;
+}
+.cover-image img{
+    max-width: 100%;
 }
