@@ -1,7 +1,37 @@
+body{
+  margin: 0;
+  
+}
+/* header, main, footer{
+  text-align: center; */
+/* } */
+#nav-bar{
+  position: sticky;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a.nav-link{
+  text-decoration: none;
+}
+
 #video {
   width: 100%;
   max-width: 560px;
   aspect-ratio: 16 / 9;
   height: auto;
   border: none;
+}
+@media screen and(max-width:1200px) {
+  .nav-links{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+  }
+  
 }
